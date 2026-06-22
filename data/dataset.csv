@@ -1,0 +1,3 @@
+text,label
+"Example post text goes here — one post per row",label_1
+"Another post. Keep commas inside the quotes so the CSV doesn't break",label_2

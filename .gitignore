@@ -1,0 +1,6 @@
+# Keep secrets and junk out of the repo
+.env
+*.key
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
