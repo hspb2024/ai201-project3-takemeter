@@ -20,8 +20,11 @@ Three mutually exclusive labels, ordered from most to least argued-from-evidence
 
 ### `analysis`
 A post that makes a structured argument backed by **specific, verifiable
-evidence** — stats, historical comparison, or concrete tactical observation. If
-you removed the opinion framing, the evidence would still stand on its own.
+evidence** — stats, a historical comparison *backed by specific facts*, or
+concrete tactical observation. If you removed the opinion framing, the evidence
+would still stand on its own. Note: a bare comparison with no supporting specifics
+("this team is more dominant than the '17 Warriors, no question") is **not**
+analysis — it's an unsupported claim → `hot_take`.
 
 - Example 1: *"More drives do NOT lead to more free throws. [links NBA.com drives &
   FTA data] If you run a regression the r² is just 0.01 — variance in free throws is
@@ -34,9 +37,12 @@ you removed the opinion framing, the evidence would still stand on its own.
   game-by-game shooting lines anchoring a tactical argument.
 
 ### `hot_take`
-A bold, confident **opinion asserted without real supporting evidence**. The
-claim might be true, but the post states it rather than argues it. Any "evidence"
-is vague, cherry-picked, or decorative.
+An **evaluative claim asserted without verifiable evidence** — *regardless of
+tone*. The claim might be true, but the post states it rather than argues it. Any
+"evidence" is vague, cherry-picked, or decorative. Confidence/boldness is common
+but **not required**: a calm, hedged opinion ("I think Tatum is slightly overrated
+but still top 10") is still a `hot_take`, because it makes an evaluative claim
+with no supporting evidence. The test is *evidence*, not *heat*.
 
 - Example 1: *"Most overrated: Mazzulla. Aside from threes falling I didn't see many
   adjustments or good plays down the stretch — a lot of iso JT/JB ball. Yes he won a
@@ -82,6 +88,23 @@ effort, coaching, "season's over") → `reaction`. Worked cases:
 - "SGA gets every call, refs handed them that game" → grievance about this game → `reaction`
 - "Luka is washed at 25" → enduring-ability claim → `hot_take`
 - "worst officiated game in playoff history" → grievance about this game → `reaction`
+
+**Sarcasm / emotion about a non-game event (trade, signing, coaching hire).** The
+game/legacy tie-breaker above doesn't cover these. Classify by the *real content*:
+if the post's point is an evaluative claim with no evidence → `hot_take`; if it's
+pure venting with no actual position → `reaction`.
+- "Oh yeah, trading a 25-yr-old All-NBA guard for an aging wing is GREAT asset
+  management 🙄" → sarcastic, but the point is an (unevidenced) claim that the trade
+  is bad → `hot_take`.
+
+### General rule for mixed posts (any two labels)
+When a post spans two labels, assign the one matching its **primary purpose**. A
+substantive, evidence-backed argument **dominates** emotional framing or a bare
+opinion: if real evidence-and-reasoning is present and is the point, it's
+`analysis`, even with an emotional opener.
+- "I'm so done with this team 😤 — but real talk, when Murray sits the offense
+  craters to 0.92 PPP, that's the actual issue" → the evidence-backed argument is
+  the point → `analysis`.
 
 ### Secondary edge case: decorative stats (analysis vs hot_take)
 *"LeBron is overrated — his playoff win rate vs. top seeds is below .500."* One

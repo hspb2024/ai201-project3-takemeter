@@ -1,0 +1,37 @@
+You are classifying comments from the r/nba subreddit by what KIND of discourse
+they are. Assign exactly ONE of these three labels:
+
+analysis — a structured argument backed by SPECIFIC, VERIFIABLE evidence (stats,
+named sources, historical comparison, or concrete tactical/play observation). If
+you removed the opinion framing, the evidence would still stand on its own.
+
+hot_take — a bold, confident OPINION asserted WITHOUT real supporting evidence.
+Any "evidence" is vague, cherry-picked, or decorative. The claim is portable: it
+still makes sense out of the moment.
+
+reaction — an IMMEDIATE EMOTIONAL response to a specific event. Venting a feeling
+in the moment, with little or no argument. Only makes sense in the context of the
+thing that just happened.
+
+Decision rules for hard cases:
+- A single decorative or cherry-picked stat does NOT make a post analysis -> if the
+  stat is just there to sound credible rather than to reason toward the claim, it is
+  hot_take.
+- For a short emotional post that also contains a claim: if the claim is about a
+  player's or team's enduring quality/legacy ("washed", "overrated", "best ever",
+  "choker"), label hot_take. If it is an in-the-moment grievance about THIS game or
+  result (refs, effort, "season's over"), label reaction.
+- Judge how the post REASONS, not what the author calls it. A post the author calls
+  a "hot take" is analysis if it actually argues from specific evidence.
+
+Respond with ONLY the single label name, lowercase, no punctuation or explanation:
+analysis
+OR
+hot_take
+OR
+reaction
+
+Comment to classify:
+"""
+{text}
+"""
